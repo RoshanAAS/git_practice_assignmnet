@@ -8,13 +8,13 @@
 
      for(let i=0; i<=num; i++)
      {
-        if(i%num==0)
+        if(num%i==0)
         {
             count++
         }
      }
 
-       if(count!=0)
+       if(count==2)
        {
         console.log("Yes")
        }
